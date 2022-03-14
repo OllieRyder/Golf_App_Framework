@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/olive/IntelliJIDEAProjects/GolfAppFramework/app/src/main/res/layout/activity_main.xml" value="0.2260135135135135" />
+        <entry key="..\:/Users/olive/IntelliJIDEAProjects/GolfAppFramework/app/src/main/res/layout/content_main.xml" value="0.2260135135135135" />
         <entry key="..\:/Users/olive/IntelliJIDEAProjects/GolfAppFramework/app/src/main/res/layout/fragment_first.xml" value="0.1581081081081081" />
-        <entry key="..\:/Users/olive/IntelliJIDEAProjects/GolfAppFramework/app/src/main/res/layout/fragment_second.xml" value="0.14" />
+        <entry key="..\:/Users/olive/IntelliJIDEAProjects/GolfAppFramework/app/src/main/res/layout/fragment_second.xml" value="0.17" />
         <entry key="..\:/Users/olive/IntelliJIDEAProjects/GolfAppFramework/app/src/main/res/menu/menu_main.xml" value="0.36302083333333335" />
       </map>
     </option>
