@@ -25,14 +25,4 @@
                 android:id="@+id/action_SecondFragment_to_FirstFragment"
                 app:destination="@id/FirstFragment"/>
     </fragment>
-    <fragment
-            android:id="@+id/ThirdFragment"
-            android:name="com.example.golfappframework.ThirdFragment"
-            android:label="@string/Third_fragment_label"
-            tools:layout="@layout/Third_second">
-
-        <action
-                android:id="@+id/action_SecondFragment_to_ThirdFragment"
-                app:destination="@id/ThirdFragment"/>
-    </fragment>
 </navigation>

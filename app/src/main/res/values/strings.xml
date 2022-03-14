@@ -13,4 +13,6 @@
     <string name="to_scorecard">To Scorecard</string>
     <string name="welcome_to_golf_app">Welcome to Golf App</string>
     <string name="map">Map</string>
+    <string name="scorecard">Scorecard</string>
+    <string name="to_map">To Map</string>
 </resources>
