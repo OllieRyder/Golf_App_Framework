@@ -26,93 +26,1321 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="544dp"/>
     <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:stretchColumns="20" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp">
-        <TableRow android:layout_width="348dp" android:layout_height="wrap_content">
+            android:layout_width="358dp"
+            android:layout_height="544dp"
+            android:shrinkColumns="13" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
             <TextView
-                    android:text="Hole"
-                    android:padding="1dip"/>
+                    android:text="@string/hole"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="@string/white_yards"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="@string/yellow_yards"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="@string/mens_par"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="@string/mens_s_i"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="@string/a"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <TextView
+                    android:text="@string/b"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <TextView
+                    android:text="@string/c"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <TextView
+                    android:text="@string/gross"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <TextView
+                    android:text="@string/points"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="@string/red_yards"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="@string/ladies_par"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="@string/ladies_s_i"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
             <TextView
                     android:text="1"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
             <TextView
-                    android:text="2"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="360"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
-                    android:text="3"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="322"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
                     android:text="4"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
                     android:text="5"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
             <TextView
-                    android:text="6"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="279"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
-                    android:text="7"
-                    android:gravity="right"
-                    android:padding="2dip"/>
-            <TextView
-                    android:text="8"
-                    android:gravity="right"
-                    android:padding="2dip"/>
-            <TextView
-                    android:text="9"
-                    android:gravity="right"
-                    android:padding="2dip"/>
-            <TextView
-                    android:text="OUT"
-                    android:gravity="right"
-                    android:padding="2dip"/>
-            <TextView
-                    android:text="10"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
                     android:text="11"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
             <TextView
-                    android:text="12"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="2"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
             <TextView
-                    android:text="13"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="322"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
-                    android:text="14"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="305"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
-                    android:text="15"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
-                    android:text="16"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:text="11"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="268"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="7"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="3"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="446"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="431"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="1"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="432"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="1"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="4"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="177"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="135"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="7"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="125"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
                     android:text="17"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="5"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="445"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="388"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="361"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="6"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="486"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="464"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="13"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="367"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="7"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="294"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="275"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="17"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="245"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="9"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="8"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="183"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="156"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="15"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="155"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="13"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="9"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="498"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="461"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5/4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="9"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="437"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="15"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="10"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="170"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="129"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="14"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="119"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="3"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
             <TextView
                     android:text="18"
-                    android:gravity="right"
-                    android:padding="2dip"/>
-            <TextView
-                    android:text="IN"
-                    android:gravity="right"
-                    android:padding="2dip"/>
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
         </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="11"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="438"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="505"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4/5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="378"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="12"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="297"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="267"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="18"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="256"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="16"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="13"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="380"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="361"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="8"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="339"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="6"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="14"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="380"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="341"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="2"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="290"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="2"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="15"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="447"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="432"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5/4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="6"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <TextView
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="415"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="8"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="16"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="405"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="380"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="10"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="285"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="14"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="17"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="338"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="301"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="16"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="254"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="10"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:text="18"
+                    android:padding="1dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="20dp"/>
+            <TextView
+                    android:text="428"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="496"
+                    android:gravity="center"
+                    android:maxLines="5"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="4/5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="12"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="10dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="26dp"/>
+            <EditText
+                    android:text=""
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="27dp"/>
+            <TextView
+                    android:text="464"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="5"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+            <TextView
+                    android:text="12"
+                    android:gravity="center"
+                    android:padding="2dip"
+                    android:textSize="8sp" android:layout_height="25dp" android:layout_width="30dp"/>
+
+        </TableRow>
+
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

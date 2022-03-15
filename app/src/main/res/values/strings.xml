@@ -16,4 +16,17 @@
     <string name="scorecard">Scorecard</string>
     <string name="to_map">To Map</string>
     <string name="todo">TODO</string>
+    <string name="hole">Hole</string>
+    <string name="yellow_yards">Yellow Yards</string>
+    <string name="mens_s_i">Mens S.I.</string>
+    <string name="ladies_s_i">Ladies S.I.</string>
+    <string name="a">A</string>
+    <string name="white_yards">White Yards</string>
+    <string name="gross">Gross</string>
+    <string name="ladies_par">Ladies Par</string>
+    <string name="red_yards">Red Yards</string>
+    <string name="points">Points</string>
+    <string name="c">C</string>
+    <string name="b">B</string>
+    <string name="mens_par">Mens Par</string>
 </resources>
